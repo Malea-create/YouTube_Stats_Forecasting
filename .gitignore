@@ -1,6 +1,3 @@
 /Data/*
-/src/logs/*
-/src/models/*
-/src/noisy*
 /src/weights
 .DS_Store
