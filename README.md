@@ -8,8 +8,15 @@ Der _Business Usecase_ ist es, eine Machine Learning Applikation für die Youtub
 
 _Bisherige Notebooks_ zu diesem Datensatz nutzen diesen und die verschiedenen Subdatensätze der Länder, um verschiedene Sortierungen und Grouping Funktionen zu implementieren. Nur sehr wenige wenden ML auf die Daten an.
 Im Gegensatz zu bisherigen Arbeiten zu diesem Thema, werden hier mehrere Länder und Jahre in die Vorhersage einbezogen, um die Daten eines Jahres in einem Land mithilfe von Transfer Learning mit passenden Daten anreichern. Keiner der bisherigen Ansätze wendet Transfer Learning auf den Youtube Datensatz an.
+Gesellschaftlich kann eine solche Anwendung kleineren Youtubern helfen ihren Content zu planen ohne nur auf bisherige Viewzahlen zurückzublicken. Grundlegend kann damit die Nachfrage auf der Youtubeplattform besser verstanden und bedient werden, damit wird der Wettbewerb grundlegend belebt und bleibt nicht nur Youtubern mit bisher großer Reichweite vorbehalten.
 
 Dafür sollen sowohl _klassische Transfer Learning Techniken_ verwendet werden, darüber hinaus soll das Gebiet des _Deep Transfer Learning_ beachtet werden. Die Transfer und Non-Transfer Modelle sowie die Deep und Tradistional Techniken sollen vor dem Hintergrund der textuellen Regression vergleichen werden. Des Weiteren will ich auch noch klassisches ML in den Vergleich einbeziehen.
+
+Die grundlegend _technische Fragestellung_, die mihilfe dieses Projektes beantwortet werden kann ist demnach, ob NLP-Modelle durch Transfer Learning Techniken (Traditionell und Deep Transfer) verbessert werden können. Des Weiteren wird beleuchtet wie verschiedene Textarten in einem Neutral Network verarbeitet werden können.
+
+## Moral Dilemmas
+
+Da es sich bei diesen Videodaten in erster Linie, um offentliche und nicht personenbezogene Daten handelt, ist der Datenschutz weniger problematisch. Trotzdem gibt es Probleme hinsichtlich des moralischen Aspektes, da es sich bei Youtube, um eine öffentliche Plattform handelt und die Uploadfilter nicht unbedingt alle beleidgenden, rassistischen oder sexistischen Inhalte zensieren. Demnach sind Modelle, die auf diese Daten trainiert wurden, der Gefahr ausgesetzt auf unmoralische Inhalte trainiert zu werden. Lernt das Modell beispielsweise eine Verbindung zwischen Beleidigungen und vielen Klicks, würde es dazu raten solche Videos zu produzieren. Um dem entgegenzuwirken wird im Preprocessing anhand eines vortrainierten Modells nach solchen Videos gefiltert, um diese zu entfernen. Dabei gilt es umgangssprachlich lieber zu-vorsichtig zu sein und lieber Videos mit unfeindlichen Inhalten auszuschließen, als Videos mit feindlichen Inhalten zu behalten.
 
 ## Structure of the Data and Preprocessing
 
