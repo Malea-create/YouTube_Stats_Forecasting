@@ -42,4 +42,10 @@ Das Repository besteht grundsätzlich aus 7 Notebooks, 4 davon beinhalten das mo
 ## Running and Comparing the models
 
 Um die vorgestellten Modelle zu vergleichen, werden die entsprechenden Vorhersagen der Modelle in einem File gespeichert und im *** 06_evaluation.ipynb *** Notebook verglichen.
-Da alle bisherigen Ergebnisse gespeichert sind, kann auch nur diese Datei ausgeführt werden. Ansonsten müssen die Notebooks der Nummerierung nach ausgeführt werden. 
+Da alle bisherigen Ergebnisse gespeichert sind, kann auch nur diese Datei ausgeführt werden. Ansonsten müssen die Notebooks der Nummerierung nach ausgeführt werden. Zudem müssen die großen Gewichtsfiles in den src/weights eingefügt werden werden. Diese befinden sich unter diesem Link:
+
+https://www.dropbox.com/scl/fi/21e94hlq38cula9aej8xo/source_lstm_model_weights.h5.zip?rlkey=jausze3n0q0n8xd9vegzhiug0&dl=0
+
+https://www.dropbox.com/scl/fi/fqh7aem5q8mpa3x0r6frw/source_lstm_model.h5.zip?rlkey=80h088sjvj60c6p3i2hoginqz&dl=0
+
+
